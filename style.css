@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url("bg.jpeg");
+    background-size: cover; */
+    overflow: hidden;
+    height: 100vhs;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 8vh;
+    background-color: #f3f3f3;
+    z-index: 110;
+}
+.startmenu{
+    position: absolute;
+    /* left: 34vw; */
+    /* bottom: 0vh; */
+    bottom: -100vh;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 66px;
+    transition: all 0.3s ease-in;
+    z-index: 907;
+}
+.startmenu img{
+   border-radius: 22px;
+}
+.rightbar{
+    position: absolute;
+    right: 3vw;
+    bottom:1.5vh;
+}
+.icons img{
+    width: 10vw;
+    height: 10vh;
+}
+.chrome{
+    position:absolute;
+    left: 1vw;
+}
